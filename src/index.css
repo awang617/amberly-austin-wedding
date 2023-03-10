@@ -5,9 +5,118 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("./assets/background.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#app-body {
+  margin-top: 50px;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+    @apply mb-3;
+  }
+  h3 {
+    @apply text-2xl;
+    @apply my-2;
+  }
+  h4 {
+    @apply text-xl;
+    @apply my-2;
+  }
+  p {
+    @apply my-3;
+  }
+  hr {
+    @apply pt-2;
+    @apply pb-4;
+  }
+  a:hover{
+    @apply text-slate-500;
+    @apply duration-700;
+  }
+}
+
+@layer utilities {
+  .header-text{
+    @apply font-alegreya;
+    @apply text-center
+  }
+  .content-container {
+    @apply mx-5;
+    @apply md:mx-14;
+    @apply lg:mx-0
+  }
+  .link:hover {
+    @apply text-slate-500;
+    @apply duration-700;
+    @apply cursor-pointer;
+  }
+  .btn {
+    @apply py-2;
+    @apply px-4;
+    @apply rounded;
+  }
+  .primary {
+    @apply border-2;
+    @apply border-transparent;
+    @apply bg-teal-700;
+    @apply text-white;
+    @apply hover:bg-slate-200;
+    @apply hover:border-solid;
+    @apply hover:border-teal-700;
+    @apply hover:border-2;
+    @apply hover:text-teal-700;
+    @apply duration-700;
+  }
+  .secondary {
+    @apply border-2;
+    @apply border-transparent;
+    @apply bg-slate-400;
+    @apply text-white;
+    @apply hover:bg-slate-500;
+    @apply hover:text-white;
+    @apply duration-700;
+  }
+  .no-hover:hover {
+    @apply text-black;
+  }
+  .no-hover-btn:hover {
+    @apply text-teal-700;
+  }
+  .no-hover-btn-secondary:hover {
+    @apply text-white;
+  }
+  .question {
+    @apply font-abhaya;
+    @apply font-extrabold;
+    @apply text-lg;
+    @apply mb-0;
+  }
 }
