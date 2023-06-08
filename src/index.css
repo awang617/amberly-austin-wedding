@@ -50,6 +50,9 @@ code {
     @apply text-xl;
     @apply my-2;
   }
+  h5 {
+    @apply text-base
+  }
   p {
     @apply my-3;
   }

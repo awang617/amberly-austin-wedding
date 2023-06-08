@@ -1,5 +1,5 @@
 import React from "react";
-import funphoto from "../assets/fun-one.jpg";
+import funphoto from "../../assets/fun-one.jpg";
 
 function Faqs() {
     return(
@@ -13,7 +13,7 @@ function Faqs() {
             <div className="content-container mt-10">
                 <div>
                     <p className="question">When is the RSVP deadline?</p>
-                    Please RVSP by August 2023. You can RSVP <a href="/rsvp" className="underline">here.</a>
+                    Please RVSP by August 1, 2023. You can RSVP <a href="/rsvp" className="underline">here.</a>
                 </div>
                 <div>
                     <p className="question">Can I bring a plus one?</p>
@@ -21,15 +21,11 @@ function Faqs() {
                 </div>
                 <div>
                     <p className="question">Are my kids welcome?</p>
-                    Due to a limited amount of space, we can only invite children of extended family members. If your baby won't need a seat, contact us to discuss options. If this will affect your attendance, please feel free to stay home and we can celebrate another time!
+                    Due to a limited amount of space, we can only invite children of family members. If this will affect your attendance, please feel free to stay home and we can celebrate another time!
                 </div>
                 <div>
                     <p className="question">What is the dress code?</p>
                     Formal attire. For example: cocktail knee-length dress to floor-length gown, suit and tie. 
-                </div>
-                <div>
-                    <p className="question">What are your wedding colors?</p>
-                    Blue and green, with pink accents. 
                 </div>
                 <div>
                     <p className="question">When should I arrive for the ceremony?</p>
@@ -47,12 +43,12 @@ function Faqs() {
                     <p className="question">What should I do if I have dietary restrictions (allergies, intolerances, etc.)?</p>
                     Please indicate if you have any dietary restrictions on your RSVP. Our reception dinner will be family style and we will be sure to note any potential allergens as well.
                 </div>
-                <div>
+                {/* <div>
                     <p className="question">Will there be an open bar?</p>
-                </div>
+                </div> */}
                 <div>
                     <p className="question">I am coming from out of town, where should I stay?</p>
-                    Check out our <a href="/travel" className="underline">Travel page</a> for accomodations and recommended food/shopping locations!
+                    Check out our <a href="/travel" className="underline">travel page</a> for accomodations and recommended food/shopping locations!
                 </div>
             </div>
         </div>

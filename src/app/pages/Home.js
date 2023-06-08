@@ -1,5 +1,5 @@
 import React from "react";
-import landing from "../assets/landing.jpg";
+import landing from "../../assets/landing.jpg";
 import { ChatBubbleLeftRightIcon, EnvelopeIcon, GiftIcon } from '@heroicons/react/24/outline';
 
 function Home () {

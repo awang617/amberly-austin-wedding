@@ -1,5 +1,5 @@
 import React from "react";
-import registry from "../assets/registry.jpg";
+import registry from "../../assets/registry.jpg";
 
 function Registry() {
     return(

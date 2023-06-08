@@ -1,5 +1,5 @@
 import React from "react";
-import rsvp from "../assets/rsvp.jpg";
+import rsvp from "../../assets/rsvp.jpg";
 import { PopupButton } from "@typeform/embed-react";
 
 function Rsvp() {
@@ -15,14 +15,15 @@ function Rsvp() {
             <div className="content-container">
                 <div className="md:text-center">
                     <h3 className="font-abhaya text-center">Meet us at 11.11.</h3>
-                    <p>We are still working on the RSVP form! Please check back when you receive your invitation!</p>
                     <p>Ready to party? RSVP so we can count you in our celebrations!</p>
                     <p> 
                         Please note, our RSVP deadline is August 1, 2023 and this form will no longer be open after that date. If you have any questions, check our FAQ page. If you still have questions, you may contact our wedding planner.
                     </p>
-                    <PopupButton id="https://mtrwvx63bj1.typeform.com/to/WQ5VxMVD" style={{ fontSize: 16 }} size={80} className="btn primary">
-                        Click here to RSVP
-                    </PopupButton>
+                    <div className="text-center">
+                        <PopupButton id="https://mtrwvx63bj1.typeform.com/to/WQ5VxMVD" style={{ fontSize: 16 }} size={80} className="btn primary">
+                            Click here to RSVP
+                        </PopupButton>
+                    </div>
                 </div>
             </div>
         </div>

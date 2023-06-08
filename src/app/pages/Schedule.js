@@ -1,7 +1,7 @@
 import React from "react";
-import schedule from "../assets/schedule.jpg"
-import church from "../assets/church.png";
-import champagne from "../assets/champagne.png";
+import schedule from "../../assets/schedule.jpg"
+import church from "../../assets/church.png";
+import champagne from "../../assets/champagne.png";
 
 function Schedule() {
     return(
@@ -45,7 +45,7 @@ function Schedule() {
                         <h3 className="font-abhaya mt-0">Reception</h3><span className="font-alegreya font-bold md:hidden">5:00 - 10:00pm</span>
                         <p>Now that we are officially Mr. and Mrs., here&apos;s where the fun begins! Our reception venue is located but ten minutes away, so you have plenty of time to make it over before cocktail hour at 5:00pm. We will have passed appetizers and drinks on the rooftop. Dinner will begin at 6:00pm. Look forward to a family style dinner, dessert, and lots of dancing!</p>
                         <p><b>Location:</b> Blanco, Urban Venue, 12 N San Pedro St, San Jose, CA</p>
-                        <p><b>Parking:</b> The closest parking structure is right next to the venue at Market &amp; San Pedro Square Parking Garage. (Please note there is a fee for weekend parking.)</p>
+                        <p><b>Parking:</b> The closest parking structure is right next to the venue at Market &amp; San Pedro Square Parking Garage. (Please note there is a $10 fee for all day weekend parking.)</p>
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.294250351845!2d-121.89504168445947!3d37.33554187984175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcd7f5c23503f%3A0xd2fd4e8ecb3ecf05!2sBlanco%20Urban%20Venue!5e0!3m2!1sen!2sus!4v1663712171265!5m2!1sen!2sus"
                             className="w-full h-[360px] md:h-[400px]"

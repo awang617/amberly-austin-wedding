@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import ourStory1 from "../assets/our-story1.jpg";
-import ourStory2 from "../assets/our-story2.jpg";
-import ourStory3 from "../assets/our-story3.jpg";
-import ourStory4 from "../assets/our-story4.jpg";
+import ourStory1 from "../../assets/our-story1.jpg";
+import ourStory2 from "../../assets/our-story2.jpg";
+import ourStory3 from "../../assets/our-story3.jpg";
+import ourStory4 from "../../assets/our-story4.jpg";
 
 function OurStory() {
     const [showLeft, setShowLeft] = useState(false);
