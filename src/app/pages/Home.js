@@ -9,7 +9,7 @@ function Home () {
                 src={landing}
                 title="Welcome to our website! We hope you enjoy your stay!"
                 alt="Austin stands to the left side of Amberly, who is sitting down. They are gazing at each other while smiling."
-                className="mb-6 md:w-1/2 md:mx-auto lg:w-full"/>
+                className="mb-6 md:w-3/4 md:mx-auto"/>
             <div className="content-container">
                 <div className="text-center">
                     <h2 className="font-windsong">

@@ -43,7 +43,7 @@ function Schedule() {
 
                     <div className="md:col-span-4">
                         <h3 className="font-abhaya mt-0">Reception</h3><span className="font-alegreya font-bold md:hidden">5:00 - 10:00pm</span>
-                        <p>Now that we are officially Mr. and Mrs., here&apos;s where the fun begins! Our reception venue is located but ten minutes away, so you have plenty of time to make it over before cocktail hour at 5:00pm. We will have passed appetizers and drinks on the rooftop. Dinner will begin at 6:00pm. Look forward to a family style dinner, dessert, and lots of dancing!</p>
+                        <p>Now that we are officially Mr. and Mrs., here&apos;s where the fun begins! Our reception venue is located but ten minutes away, so you have plenty of time to make it over before cocktail hour at 5:00pm. We will have passed appetizers and drinks on the rooftop. Dinner will begin at 6:00pm. Look forward to a Korean inspired buffet, dessert, and lots of dancing!</p>
                         <p><b>Location:</b> Blanco, Urban Venue, 12 N San Pedro St, San Jose, CA</p>
                         <p><b>Parking:</b> The closest parking structure is right next to the venue at Market &amp; San Pedro Square Parking Garage. (Please note there is a $10 fee for all day weekend parking.)</p>
                         <iframe 

@@ -41,6 +41,7 @@ module.exports = {
 			},
 			height: {
 				'screen25': '25vh',
+				'screen85': '85vh',
 			}
 		},
 	},

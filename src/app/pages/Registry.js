@@ -13,7 +13,17 @@ function Registry() {
             />
             <div className="content-container">
                 <div>
-                    <p>Thank you so much for considering a gift! We haven't registered anywhere yet but please check back closer to the wedding date!</p>
+                    <p>Thank you so much for considering a gift! Our wedding registry is through Zola and you can check it out here!</p>
+                    <div className="text-center">
+                        <button className="btn primary mt-5 text-center">
+                            <a
+                                href="https://www.zola.com/registry/austinandamberly"
+                                target="_blank"
+                                rel="noreferrer">
+                                Zola Registry
+                            </a>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

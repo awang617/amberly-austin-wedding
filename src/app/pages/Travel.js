@@ -166,7 +166,7 @@ function Travel() {
                             <li><a href="https://goo.gl/maps/Qr7GvFuNLAik995B8" className="underline" target="_blank">Foothills Preserve</a> &mdash; Los Altos, nature preserve with an uphill trail leading to bay vistas.</li>
                             <li><a href="https://goo.gl/maps/4uAWF3zeZAMtDYn67" className="underline" target="_blank">Coyote Valley Open Space</a> &mdash; Morgan Hill, moderate hike with fairytale views.</li>
                             <li><a href="https://goo.gl/maps/PmpCZ1fY9K4bhKdP6" className="underline" target="_blank">Russian Ridge</a> &mdash; Redwood city, there are a number of trails in this space.</li>
-                            <li><a href="https://goo.gl/maps/JuDqjnzfcW5YDHej6" className="underline" target="_blank">Half Moon Bay</a> &mdash; </li>
+                            <li><a href="https://goo.gl/maps/JuDqjnzfcW5YDHej6" className="underline" target="_blank">Half Moon Bay</a> &mdash; See the sunset from this famous Northern Califonia beach!</li>
                         </ul>
                     </div>
                 </div>
