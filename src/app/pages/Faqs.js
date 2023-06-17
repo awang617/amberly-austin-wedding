@@ -50,6 +50,10 @@ function Faqs() {
                     <p className="question">I am coming from out of town, where should I stay?</p>
                     Check out our <a href="/travel" className="underline">travel page</a> for accomodations and recommended food/shopping locations!
                 </div>
+                <div>
+                    <p className="question">Who created this website?</p>
+                    This website was created and designed entirely by Amberly!
+                </div>
             </div>
         </div>
     )

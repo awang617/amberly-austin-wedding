@@ -12,15 +12,15 @@ function Registry() {
                 alt="Amberly and Austin are holding hands and standing with their faces close to each other. Their eyes are close and they are smiling very excitedly."
             />
             <div className="content-container">
-                <div>
-                    <p>Thank you so much for considering a gift! Our wedding registry is through Zola and you can check it out here!</p>
-                    <div className="text-center">
+                <div className="text-center">
+                    <p>Thank you so much for considering a gift! Anything you would like to contribute is a blessing to us. Our wedding registry is through Zola and you can check it out here!</p>
+                    <div>
                         <button className="btn primary mt-5 text-center">
                             <a
                                 href="https://www.zola.com/registry/austinandamberly"
                                 target="_blank"
                                 rel="noreferrer">
-                                Zola Registry
+                                Our Registry
                             </a>
                         </button>
                     </div>

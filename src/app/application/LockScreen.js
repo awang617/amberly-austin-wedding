@@ -9,7 +9,16 @@ function LockScreen (props) {
     const [showError, setShowError] = useState(false);
     const [errorMessage, setErrorMessage] = useState("");
     const auth = getAuth();
-    var bcrypt = require('bcryptjs');
+    const bcrypt = require('bcryptjs');
+    // const saltRounds = 10;
+    // const myPlaintextPassword = 'eleven11';
+    // const someOtherPlaintextPassword = 'not_bacon';
+
+    // bcrypt.genSalt(saltRounds, function(err, salt) {
+    //     bcrypt.hash(myPlaintextPassword, salt, function(err, hash) {
+    //         console.log(hash);
+    //     });
+    // });
 
     async function fetchPassword() {
         const passwordRef = collection(db, "password");

@@ -1,19 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {
-    // Routes,
-    // Route,
-    Link,
     useLocation
 } from "react-router-dom";
-// import Faqs from './pages/Faqs';
-// import Home from './pages/Home';
-// import OurStory from './pages/OurStory';
-// import Registry from './pages/Registry';
-// import Rsvp from './pages/Rsvp';
-// import Schedule from './pages/Schedule';
-// import Travel from './pages/Travel';
-// import WeddingParty from './pages/WeddingParty/WeddingParty';
-// import PageNotFound from './pages/PageNotFound';
 
 function Navigation(props) {
 
@@ -47,9 +35,6 @@ function Navigation(props) {
         <div>
             <div>
                 <div id="navigation">
-                    {/* <h1 className="text-center font-windsong pt-20 pb-5 no-hover">
-                        <Link to="/" className="no-hover">Amberly &amp; Austin</Link>
-                    </h1> */}
                     <div className="text-center">
                         <button onClick={toggleNav} className="md:hidden link">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`${showNav ? "hidden" : ""} w-6 h-6`}>
@@ -74,17 +59,6 @@ function Navigation(props) {
 
                     <hr />
                 </div>
-                {/* <Routes>
-                    <Route exact path="/" element={<Home />} />
-                    <Route path="/rsvp" element={<Rsvp />} />
-                    <Route path="/our-story" element={<OurStory />} />
-                    <Route path="/wedding-party" element={<WeddingParty />} />
-                    <Route path="/schedule" element={<Schedule />} />
-                    <Route path="/travel" element={<Travel />} />
-                    <Route path="/registry" element={<Registry />} />
-                    <Route path="/faqs" element={<Faqs />} />
-                    <Route path="*" element={<PageNotFound />} />
-                </Routes> */}
             </div>
         </div>
     )
