@@ -19,11 +19,11 @@ function Rsvp() {
                     <p> 
                         Please note, our RSVP deadline is August 1, 2023 and this form will no longer be open after that date. If you have any questions, check our FAQ page. If you still have questions, you may contact our wedding planner.
                     </p>
-                    <div className="text-center">
-                        <PopupButton id="https://mtrwvx63bj1.typeform.com/to/WQ5VxMVD" style={{ fontSize: 16 }} size={80} className="btn primary">
+                    {/* <div className="text-center">
+                        <PopupButton id="https://mtrwvx63bj1.typeform.com/to/WQ5VxMVD" style={{ fontSize: 16 }} size={80} className="btn primary cursor-not-allowed">
                             Click here to RSVP
                         </PopupButton>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

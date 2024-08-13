@@ -19,7 +19,7 @@ import PageNotFound from '../pages/PageNotFound';
 import LockScreen from "./LockScreen";
 
 function App() {
-	const [lock, setLock] = useState(true);
+	const [lock, setLock] = useState(false);
 	const [showNav, setShowNav] = useState(true);
 
 	useEffect(() => {
